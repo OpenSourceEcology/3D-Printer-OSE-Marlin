@@ -712,9 +712,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define Y_MAX_POS 200
-#define X_MAX_POS 200
-#define Z_MAX_POS 200
+#define Y_MAX_POS 175
+#define X_MAX_POS 175
+#define Z_MAX_POS 175
 
 //===========================================================================
 //========================= Filament Runout Sensor ==========================
@@ -835,11 +835,11 @@
 // 3 arbitrary points to probe.
 // A simple cross-product is used to estimate the plane of the bed.
 #define ABL_PROBE_PT_1_X 40
-#define ABL_PROBE_PT_1_Y 140
+#define ABL_PROBE_PT_1_Y 175
 #define ABL_PROBE_PT_2_X 40
-#define ABL_PROBE_PT_2_Y 40
+#define ABL_PROBE_PT_2_Y 30
 #define ABL_PROBE_PT_3_X 140
-#define ABL_PROBE_PT_3_Y 40
+#define ABL_PROBE_PT_3_Y 30
 
 
 #endif
