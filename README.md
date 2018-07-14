@@ -6,6 +6,8 @@ Download the folder of Files in Arduino language for OSE's 3D printer - by click
 
 Open Arduino IDE 1.6.8 and open OSE_Marlin.ino file in the folder - that is the firmware for the 3D printer controller board.
 
-This is the version for a 0.6 mm nozzle, E3D Titan Aero extruder.
+Versions:
 
-Former versions of OSE Marlin are found at ttps://wiki.opensourceecology.org/wiki/File:OSE_Marlin.zip
+1. D3D v18.07 Marlin - 0.4 mm nozzle, Prusa i3 MK2 Extruder
+2. Marlin - This is the version for a 0.6 mm nozzle, E3D Titan Aero extruder.
+3. Former versions of OSE Marlin are found at ttps://wiki.opensourceecology.org/wiki/File:OSE_Marlin.zip
