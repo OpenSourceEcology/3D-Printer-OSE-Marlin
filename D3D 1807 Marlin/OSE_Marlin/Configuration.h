@@ -569,7 +569,7 @@
 //  (0,0)
 #define X_PROBE_OFFSET_FROM_EXTRUDER 20  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER 10  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER 0
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -1.7
 
 // Z offset: -below +above  [the nozzle]. It's not the physical probe - it's the probe trigger location which depends on inductive sensing
 //It doesn't matter if probe is below or above nozzle - what matters is relationship of nozzle to bed when probe is triggered.
@@ -895,7 +895,7 @@
 // M501 - reads parameters from EEPROM (if you need reset them after you changed them temporarily).
 // M502 - reverts to the default "factory settings".  You still need to store them in EEPROM afterwards if you want to.
 //define this to enable EEPROM support
-// #define EEPROM_SETTINGS
+#define EEPROM_SETTINGS
 
 #if ENABLED(EEPROM_SETTINGS)
 // To disable EEPROM Serial responses and decrease program space by ~1700 byte: comment this out:
@@ -1100,7 +1100,7 @@
 // SD Card support is disabled by default. If your controller has an SD slot,
 // you must uncomment the following option or it won't work.
 //
-//#define SDSUPPORT
+#define SDSUPPORT
 
 //
 // SD CARD: SPI SPEED
