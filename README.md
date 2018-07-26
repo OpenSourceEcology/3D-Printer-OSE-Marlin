@@ -11,3 +11,8 @@ Versions:
 1. D3D v18.07 Marlin - 0.4 mm nozzle, Prusa i3 MK2 Extruder
 2. Marlin - This is the version for a 0.6 mm nozzle, E3D Titan Aero extruder.
 3. Former versions of OSE Marlin are found at ttps://wiki.opensourceecology.org/wiki/File:OSE_Marlin.zip
+
+
+NOTES:
+
+Note that D3D 1807 Marlin/OSE_Marlin does not have OSE_Marlin.ino file, whereas the other folder - OSE_Marlin - does have OSE_Marlin.ino. What gives?
